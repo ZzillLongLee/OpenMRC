@@ -1,4 +1,5 @@
 # OpenMRC: Open Source MISRA-C Rule Checker based on Eclipse CDT(C/C++ Development Tooling)
+note: This is a cloned project from suntae kim's OpenMRC
 OpenMRC is an open source MISRA (Motor Industry Software Reliability Association)-C rule checker, developed as an Eclipse CDT plugin. 
 The following is an overall steps to use OpenMRC. 
 
