@@ -41,11 +41,8 @@ public class EclipseUtil {
 			ClassLoader loader = cls.getClassLoader();
 			URL ruleClassDictory = loader.getResource(cls.getPackage().getName().replace('.', '/'));
 			URL fileURL = FileLocator.toFileURL(ruleClassDictory);
-			URI fileURLAsURI = fileURL.toURI();
-			fileURLAsString = new File(fileURLAsURI).getAbsolutePath();
+			fileURLAsString = fileURL.getPath();
 		} catch (IOException e) {
-			e.printStackTrace();
-		} catch (URISyntaxException e) {
 			e.printStackTrace();
 		}
 

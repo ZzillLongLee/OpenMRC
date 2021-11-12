@@ -8,7 +8,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.List;
 
 import javax.xml.bind.JAXBContext;
@@ -16,7 +15,6 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 
-import org.eclipse.cdt.core.settings.model.util.Comparator;
 import org.eclipse.core.runtime.FileLocator;
 
 import kr.ac.jbnu.ssel.misrac.rule.RuleLocation;
